@@ -1,0 +1,22 @@
+#include <iostream>
+// input angka a, b, dan c
+// Print angka kelipatan c dari a sampai b
+
+int main() {
+  int a{};
+  int b{};
+  int c{};
+
+  std::cout << "Masukkan bilangan pertama: ";
+  std::cin >> a;
+  std::cout << "Masukkan bilangan kedua: ";
+  std::cin >> b;
+  std::cout << "Masukkan bilangan ketiga: ";
+  std::cin >> c;
+
+  for (a; a <= b; ++a) {
+    std::cout << c << " * " << a << " = " << c * a << '\n';
+  }
+
+  return 0;
+}
